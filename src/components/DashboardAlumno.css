@@ -1,0 +1,36 @@
+/* src/components/DashboardAlumno.css */
+
+.dashboard-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo-hypathia {
+  width: 150px; /* Ajusta el tamaño de tu logo */
+}
+
+.dashboard-content {
+  text-align: center;
+}
+
+/* Animación del botón */
+.btn-animated {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-animated:hover {
+  transform: scale(1.05); /* Escala un poco el botón */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra */
+}
+
+.btn-animated:active {
+  transform: scale(0.95); /* Simula un clic */
+}
