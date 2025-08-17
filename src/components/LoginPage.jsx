@@ -81,7 +81,7 @@ export default function LoginPage({ onBack, darkMode, onSuccessfulLogin }) {
     };
 
     try {
-      const response = await fetch('https://f8e5079b400e.ngrok-free.app/register', {
+      const response = await fetch('https://d9deb98f6310.ngrok-free.app/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(nuevoUsuario),

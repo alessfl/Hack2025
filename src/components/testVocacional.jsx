@@ -466,7 +466,7 @@ export default function TestVocacional({ darkMode }) {
     const token = localStorage.getItem("token");
 
     try {
-      const response = await fetch('https://f8e5079b400e.ngrok-free.app/save-results', {
+      const response = await fetch('https://d9deb98f6310.ngrok-free.app/save-results', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
